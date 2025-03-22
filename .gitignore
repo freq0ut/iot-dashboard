@@ -1,0 +1,65 @@
+# ----------------------
+# GLOBAL
+# ----------------------
+.DS_Store
+Thumbs.db
+*.log
+*.sqlite3
+*.env
+*.env.local
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.so
+
+# ----------------------
+# PYTHON BACKEND
+# ----------------------
+backend/venv/
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/alembic/versions/*.pyc
+backend/__pycache__/
+backend/.coverage
+backend/.pytest_cache
+backend/.ruff_cache
+backend/.ipynb_checkpoints
+backend/.pdm.toml
+backend/.pdm.lock
+
+# SQLite or testing DBs
+*.db
+*.pkl
+
+# ----------------------
+# NODE FRONTEND
+# ----------------------
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ----------------------
+# IDE/EDITOR FILES
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ----------------------
+# OS / SYSTEM FILES
+# ----------------------
+ehthumbs.db
+Icon?
+desktop.ini
